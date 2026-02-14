@@ -2,25 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ConverteX – Free Tools</title>
-   <link rel="stylesheet" href="style.css?v=2">
+    <title>ConverteX – Smart File Tools</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h2>ConverteX</h2>
+<header class="navbar">
+    <div class="logo">ConverteX</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#tools">Tools</a>
+        <a href="#">Features</a>
+    </nav>
 </header>
 
 <section class="hero">
-    <h1>Convert Files Instantly</h1>
-    <p>Fast • Simple • Free</p>
+    <h1>Smart File Utilities</h1>
+    <p>Fast, minimal & beautifully simple tools</p>
+    <button onclick="scrollToTools()">Explore Tools</button>
 </section>
 
-<section class="tools">
-    <div class="card">Password Generator</div>
-    <div class="card">QR Code Generator</div>
-    <div class="card">Image Resize</div>
+<section id="tools" class="tools">
+    <div class="card">
+        <h3>Password Generator</h3>
+        <p>Create secure passwords instantly</p>
+    </div>
+
+    <div class="card">
+        <h3>QR Code Generator</h3>
+        <p>Generate QR codes for anything</p>
+    </div>
+
+    <div class="card">
+        <h3>Image Resize</h3>
+        <p>Resize images with precision</p>
+    </div>
 </section>
+
+<footer>
+    © 2026 ConverteX • Minimal Tools Platform
+</footer>
 
 <script src="script.js"></script>
 </body>
