@@ -1,3 +1,7 @@
-document.getElementById("btn").onclick = () => {
-    alert("ConverteX Working 🚀");
-};
+const cards = document.querySelectorAll(".card");
+
+cards.forEach(card => {
+    card.onclick = () => {
+        alert(card.innerText + " coming soon 🚀");
+    };
+});
